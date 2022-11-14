@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+  }
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:stretch
+    background-color: rgba(0, 0, 0, 0.937);
+    margin: 0;
+  padding: 0;
+}
+.image{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Norse-Bold";
+    font-size: 100px;
+    background-image: url("leaf-image.jpg");
+    height: 100vh;
+    width: 25vw;
+    margin-top: 0px;
+}
+
+.dark{
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 25vw;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 400px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(218, 224, 224);
+}
+
+p {
+    font-size: 1.4rem;
+    margin-left: 50px;
+    font-weight: bold;
+    max-width: 80%;
+    margin-bottom: 8px;
+}
+
+.div1{
+    margin-bottom: 100px;
+}
+
+.div2{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.div2 label {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1px;
+    margin: 10px;
+  }
+
+h1{
+    margin-left: 50px;
+}
+
+form{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 700px;
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.div3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.div3 > div{
+    font-size: 1.3rem;
+    font-weight: bold;
+    max-width: 80%;
+    margin-top: 20px;
+}
+
+button{
+    background-color:#596D48;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 50px;
+    height: 50px;
+    width: 200px;
+    font-size: large;
+}
+
+a{
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
